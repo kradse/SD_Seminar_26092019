@@ -19,25 +19,5 @@ page 50106 "CSD Seminar Comment Sheet"
                 { }
             }
         }
-        area(Factboxes)
-        {
-
-        }
-    }
-
-    actions
-    {
-        area(Processing)
-        {
-            action(ActionName)
-            {
-                ApplicationArea = All;
-
-                trigger OnAction();
-                begin
-
-                end;
-            }
-        }
     }
 }
