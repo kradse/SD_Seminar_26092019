@@ -45,7 +45,7 @@ table 50101 "CSD Seminar"
         {
             DataClassification = ToBeClassified;
         }
-        field(70; Blocked; Integer)
+        field(70; Blocked; Boolean)
         {
             DataClassification = ToBeClassified;
         }
@@ -77,13 +77,13 @@ table 50101 "CSD Seminar"
                        "Gen. Prod. Posting Group") then begin
                     if GenProdPostingGroup.ValidateVatProdPostingGroup
                         (GenProdPostingGroup, "Gen. Prod. Posting Group") then
-                        Validate("Vat Prod Posting Group",
+                        Validate("VAT Prod. Posting Group",
                         GenProdPostingGroup."Def. VAT Prod. Posting Group");
 
                 end;
             end;
         }
-        field(120; "Vat Prod Posting Group"; Code[10])
+        field(120; "VAT Prod. Posting Group"; Code[10])
         {
             TableRelation = "VAT Product Posting Group";
             DataClassification = ToBeClassified;

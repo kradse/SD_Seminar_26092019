@@ -9,10 +9,10 @@ tableextension 50101 "CSD Resource Ext" extends Resource
             OptionMembers = Internal,External;
             OptionCaption = 'Internal, External';
         }
-        field(50102; "CSD Maximum Perticipants"; Integer)
+        field(50102; "CSD Maximum Participants"; Integer)
         {
             DataClassification = ToBeClassified;
-            Caption = 'Maximum Perticipants';
+            Caption = 'Maximum Participants';
         }
         field(50103; "CSD Quantity per day"; Decimal)
         {

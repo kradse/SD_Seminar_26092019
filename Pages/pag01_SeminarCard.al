@@ -52,7 +52,7 @@ page 50101 "“CSD Seminar Card"
                 field("Gen. Prod. Posting Group"; "Gen. Prod. Posting Group")
                 {
                 }
-                field("VAT Prod. Posting Group"; "Vat Prod Posting Group")
+                field("VAT Prod. Posting Group"; "VAT Prod. Posting Group")
                 {
                 }
                 field("Seminar Price"; "Seminar Price")
