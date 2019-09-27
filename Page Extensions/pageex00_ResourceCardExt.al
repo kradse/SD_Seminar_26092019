@@ -1,4 +1,4 @@
-pageextension 50101 "CSD Resource Card Ext" extends "Resource Card"
+pageextension 50100 "CSD Resource Card Ext" extends "Resource Card"
 {
     layout
     {

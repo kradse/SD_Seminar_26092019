@@ -1,4 +1,4 @@
-pageextension 50102 ResourceExtList extends "Resource List"
+pageextension 50101 ResourceExtList extends "Resource List"
 // CSD1.00 - 2018-01-01 - D. E. Veloper 
 {
     layout
